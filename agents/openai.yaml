@@ -1,0 +1,13 @@
+interface:
+  display_name: Dear X, Today 信纸生成
+  short_description: 根据参考照片生成四周装饰、中间大面积留白的专属信纸。
+  default_prompt: 使用 @create-dear-x-letter-paper 将这张参考照片制作成 Dear X, Today 专属信纸，中间保留大面积书写区域。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
